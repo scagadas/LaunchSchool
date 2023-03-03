@@ -8,3 +8,5 @@ let alphabet = 'abcdefghijklmnopqrstuvwxyz';
 let theArray = alphabet.split('')
 
 console.log(theArray)
+
+
