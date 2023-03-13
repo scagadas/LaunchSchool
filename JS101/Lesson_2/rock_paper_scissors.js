@@ -50,11 +50,4 @@ while (true) {
 
   if (answer[0] !== 'y') break;
 
-}let words = ['scooby', 'do', 'on', 'channel', 'two'];
-
-words.forEach(word => {
-  console.log(word);
-  words.shift();
-});
-
-console.log(words); // logs ['channel', 'two']
+}

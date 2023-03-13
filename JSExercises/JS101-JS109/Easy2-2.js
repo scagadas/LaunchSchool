@@ -14,6 +14,12 @@
 
 const readLine = require('readline-sync');
 
-console.log(`question`);
+console.log(`Hi user, what's your name?`);
 let name = readLine.question();
 
+if (name.charAt(name.length - 1) === '!') {
+  name = name.slice(0, -1);
+  console.log(`HI ${name}, WHATS WITH THE YELLING?`);
+} else {
+  console.log(`Hi ${name}`);
+}
